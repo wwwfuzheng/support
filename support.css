@@ -1,0 +1,464 @@
+.content{
+width:950px;
+margin: 0 auto;
+}
+/*通用的一些样式*/
+a{
+	cursor:pointer;
+}
+a:focus{
+	outline:none;
+}
+.page-title{
+    color: #666;
+    font-family: '微软雅黑';
+    font-size: 24px;
+    font-weight: 100;
+    margin: 10px 0;
+}
+.grid-c2-s4 .col-sub {
+height:550px;
+
+}
+
+.l-colume .rookie,
+.l-colume .help-book,
+.l-colume .help-cod,
+.upper .q-sec h4,
+.upper .q-sec1 h4,
+.upper .q-sec2 h4,
+.upper .q-sec3 h4,
+.upper .q-sec4 h4,
+.menu-tree a.fl,
+.menu-tree ul li a,
+.menu-tree a.highlight,
+.board .s-pub{
+	background:url(http://img03.taobaocdn.com/tps/i3/T1UHRUXXNeXXXXXXXX-260-180.png) no-repeat -9999px -9999px;
+}
+
+
+.top-bar {
+    height:30px;
+	background:#fceeda;
+	margin-bottom:10px;
+    padding-left:20px;
+}
+.board {
+	float:left;
+	height:30px;
+    line-height:30px;
+	overflow:hidden;
+}
+.board .s-pub{
+	background-position:8px -165px;
+	height:20px;
+	line-height:20px;
+	overflow:hidden;
+	padding-left:27px;
+	position:relative;
+	width:500px;
+	top:-24px;
+	left:60px;
+}
+.board .s-pub ul{
+	left:70px;
+	position:absolute;
+	top:0px;
+	width:450px;
+}
+.board .s-pub ul li{
+	height:20px;
+	line-height:20px;
+	overflow:hidden;
+	width:100%;
+}
+
+
+/*左边区块样式*/
+.l-colume .rookie,
+.menu-tree,
+.l-colume .help-book,
+.l-colume .help-cod{
+	margin-bottom:10px;
+}
+
+.l-colume .rookie {
+	height:40px;
+	background-position:0 0px;
+}
+
+.l-colume .help-book,
+.l-colume .help-cod{
+	height:40px;
+	background-position:0 -41px;
+}
+
+.menu-tree ul.menu li {
+	margin:2px 0px;
+}
+
+
+.menu-tree ul.menu ul {
+	margin:5px 0px;
+	display:none;
+}
+
+.menu-tree a {
+	display:block;
+    font-size:12px;
+}
+.menu-tree li a:hover{
+	color:#f04e63;
+}
+.menu-tree a.fl {
+	width:126px;
+	height:24px;
+    line-height:24px;
+	background-position:0px -82px;
+	color:#333;
+	padding:6px 0 0 16px;
+	margin-bottom:2px;
+}
+
+.menu-tree ul.menu li ul li{
+height:20px;
+line-height:20px;
+overflow:hidden;
+margin:6px 0;
+}
+.menu-tree li ul li a {
+	color:#36c;
+	height:20px;
+	line-height:20px;
+	margin-left:12px;
+	padding:0 18px 0 6px;
+	width:110px;
+}
+
+.menu-tree  li ul li a.highlight,
+.menu-tree  li ul li a.highlight:hover{
+	color:#fff;
+	background-position:0px -132px;
+}
+
+.menu-tree li ul li a:hover {
+	background-position:0px -112px;
+}
+
+.menu-tree li.current a.fl {
+	font-weight:bold;
+}
+
+.menu-tree ul.menu li.current ul {
+	display:block;
+}
+
+/*左侧菜单样式*/
+
+
+/*首页主区块extra css*/
+.main-board {
+	border:#c8c8c8 solid 1px;
+}
+
+.upper {
+	border-bottom:#c8c8c8 solid 1px;
+	background:url(http://img03.taobaocdn.com/tps/i3/T1v84IXhXnXXXXXXXX-2-260.png) repeat-x;
+}
+
+.upper .quick{
+	float:left;
+	width:392px;
+	border: #fff solid 1px;
+}
+.upper .buyer{
+	border-right: #c8c8c8 solid 1px;
+}
+
+.upper .q-sec,
+.upper .q-sec1,
+.upper .q-sec2,
+.upper .q-sec3,
+.upper .q-sec4
+{
+	margin:0 0 20px 30px;
+	overflow:hidden;
+}
+.upper .q-sec h4,
+.upper .q-sec1 h4{
+	background-position:-220px 0px;
+}
+
+.upper .q-sec2 h4{
+	background-position:-220px -40px;
+}
+
+.upper .q-sec3 h4{
+	background-position:-220px -80px;
+}
+
+.upper .q-sec4 h4{
+	background-position:-220px -120px;
+}
+
+.upper h2 {
+	margin: 10px 0px 20px 30px;
+	color:#f04e63;
+	font-size:24px;
+	font-weight:100;
+	font-family:'微软雅黑';
+}
+.upper h4 {
+	padding:0 0 0 40px;
+	height:40px;
+}
+.upper h4 a{
+	color:#444;
+}
+.upper h4 .more a {
+	padding-left:5px;
+	color:#999;
+	font-weight:100;
+}
+.upper h4 a:hover,
+.upper h4 .more a:hover{
+	color:#f04e63;
+}
+
+
+.upper ul {
+	margin:-17px 0px 0px 40px;
+}
+
+.upper ul li {
+	margin-right:15px;
+	height:20px;
+	overflow:hidden;
+	line-height:20px;
+
+}
+
+
+.lower .title {
+	width:786px;
+	height:30px;
+	background:#ededed;
+	border:#ffffff solid 1px;
+}
+
+.lower h3 {
+	margin:5px 0 0 20px;
+}
+.lower ul {
+	margin:10px 0 15px 30px;
+}
+
+.lower ul li {
+	margin:0px 30px 0px 0px;
+	float:left;
+	width:220px;
+	height:30px;
+	line-height:30px;
+	overflow: hidden;
+}
+
+/*二级页面extra css*/
+.sub-board,
+.list-board{
+	padding-bottom:80px;
+}
+
+.c-box h3 {
+	background:#ededed;
+	height:16px;
+	padding:6px 0 8px 25px;
+	margin:0 0 5px;
+}
+
+.c-box p {
+	padding:10px 0 15px 27px;
+}
+
+.c-box p a {
+	margin-right:30px;
+	display: block;
+	height: 25px;
+	line-height:25px;
+}
+
+.c-box ul {
+	border-top:#ededed solid 1px;
+	padding:10px 20px 15px;
+	margin:-5px 0px 0px 0px;
+}
+
+.c-box ul li {
+	width:225px;
+	margin:5px 25px 5px 0px;
+	float:left;
+	overflow:hidden;
+	display:inline;
+	line-height:20px;
+}
+
+/*详情列表页面css*/
+.crumbs {
+	border-bottom:#ededed solid 1px;
+	height:29px;
+	margin-bottom:10px;
+	padding-left:10px;
+}
+
+.list-area ul li {
+	width:552px;
+	height:28px;
+	border-bottom:#ededed solid 1px;
+}
+
+.list-area ul li:hover {
+	background:#ededed;
+}
+
+.list-area ul li a {
+	line-height: 28px;
+	margin-left: 40px;
+}
+.list-area ul li em {
+	color:red;
+}
+
+
+/*--------详情页面----------*/
+.detail-area{
+	padding:5px 20px 30px 20px;
+}
+.detail-area h3{
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	font-size:20px;
+	margin:5px 0 15px;
+}
+.detail-area img{
+	border:none;
+	margin:10px;
+}
+.detail-area p{
+    margin:1em 0;
+    text-indent:2em;
+    font-size:14px;
+}
+
+.content strong{
+	font-weight:600;
+}
+
+.detail-area ul,
+.detail-area ul li{
+list-style:disc inside;
+}
+.detail-area ol,
+.detail-area ol li{
+list-style:decimal inside;
+}
+
+
+.rookie a,
+.help-book a,
+.help-cod a{
+	display:block;
+	height:40px;
+	line-height:40px;
+	font-size:14px;
+	color:#fff;
+	font-weight:600;
+	padding-left:35px;
+	display:block;
+	height:100%;
+	overflow:hidden;
+}
+.rookie a{
+	padding-left:45px;
+}
+.rookie a:hover,
+.help-book a:hover,
+.help-cod a:hover{
+	color:#fff!important;
+}
+
+/* Hitao服务承诺 */
+
+.hitao-promise{
+    height:45px;
+    margin-bottom:10px;
+    padding: 0px 20px 0px 50px;
+    background:#F2F2F2;
+}
+.hitao-promise i,
+.hitao-promise li, .hitao-promise em {
+    background:url(http://img03.taobaocdn.com/tps/i3/T1wFxVXmVBXXXXXXXX-200-50.png) no-repeat;
+}
+.hitao-promise li{
+    float:left;
+    position:relative;
+    width:80px;
+    height:36px;
+    line-height:18px;
+	padding:4px 10px 5px 50px;
+	margin-right:30px;
+    background-position:139px 7px;
+    cursor:pointer;
+    color:#828282;
+}
+.hitao-promise li a{
+    color:#828282;
+}
+.hitao-promise li a:hover{
+    color:#828282;
+	text-decoration:none;
+}
+.hitao-promise i, .hitao-promise em {
+    position:absolute;
+    top:5px;
+    left:-1px;
+    width:45px;
+    height:36px;
+}
+.hitao-promise .ca{ background-position:-1px 0; }
+.hitao-promise .cb{ background-position:-60px 0; }
+.hitao-promise .cc{ background-position:-153px 2px; }
+.hitao-promise .cd{ background-position:-110px 0; }
+
+.hitao-promise .last{
+	background:none;
+	width:110px;
+	margin-right:0px;
+}
+
+
+/* 搜索框 */
+.support-search{height:25px; padding:9px 0; margin-bottom:10px; }
+.support-search-field{ display:inline; position:relative; float:left; height:23px; border:1px solid #999;  }
+.support-search-field input{ width:406px; height:21px; padding:1px; border:0; background:#fff; }
+.support-search-field label{ position:absolute; color:#999; height:23px; line-height:23px; top:0; left:0; padding-left:3px; visibility:hidden;  }
+.support-search-focus label{ display:none; }
+
+.support-search button{ float:left; display:inline; margin-left:10px; padding:2px 8px 2px; cursor:pointer; border:0; background:#333; color:#fff; font-weight:bold; letter-spacing:3px; }
+
+.result-summary{ line-height:20px; padding: 8px 0; border-bottom:1px solid #ededed; padding-left:20px; }
+.result-summary .keyword{ padding:0 2px; }
+.result-summary .total{ color:#f04e63; padding:0 2px; }
+
+.result-list{ padding-left:20px; margin-top:15px; }
+.result-list li{ margin-bottom: 25px; }
+.result-list h6{ font-weight:normal; }
+.result-list h6 a{ text-decoration:underline; font-family:arial sans-serif; }
+.result-list .highlight{ color:#f04e63; }
+
+.result-pagination{ height:63px; padding-left:20px; }
+
+.support-announce h3{ font-family:\5FAE\8F6F\96C5\9ED1; font-size:18px; }
+
+.support-meta{ margin-top:60px; }
+.support-meta div{ float:right; text-align:center; }
+.detail-area .support-meta p{ margin:4px 0; text-indent:0; }
